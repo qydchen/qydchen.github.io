@@ -272,7 +272,7 @@
 		}
 
 		100% {
-			opacity: 1;
+			opacity: 0.4;
 		}
 	}
 
@@ -282,7 +282,7 @@
 		}
 
 		100% {
-			opacity: 1;
+			opacity: 0.4;
 		}
 	}
 
@@ -292,7 +292,7 @@
 		}
 
 		100% {
-			opacity: 1;
+			opacity: 0.4;
 		}
 	}
 
@@ -302,7 +302,7 @@
 		}
 
 		100% {
-			opacity: 1;
+			opacity: 0.4;
 		}
 	}
 
@@ -311,8 +311,8 @@
 		-webkit-animation: overlay 1.5s 1.5s forwards;
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
+		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/overlay-pattern.png"), url("images/overlay.svg");
 		background-attachment: fixed, fixed;
-		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -527,7 +527,7 @@
 		}
 
 		#header nav {
-			margin: 1.5em 0 0 0;
+			margin: 0.5em 0 0 0;
 		}
 
 			#header nav li {
@@ -667,6 +667,11 @@
 
 				#header nav a span {
 					display: none;
+				}
+
+				#header nav ul {
+					display: inline-flex;
+					margin-top: -1em;
 				}
 
 /* Footer */
@@ -1071,11 +1076,16 @@
 		}
 
 		.aref {
-			height: inherit;
 			width: inherit;
+			height: 100%;
 			font-size: 24px;
 		}
 
 		.aref:hover {
 			font-size: 1.7em !important;
+		}
+
+		.blurb {
+			opacity: 1 !important;
+			line-height: normal;
 		}
