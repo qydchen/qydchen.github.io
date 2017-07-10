@@ -1045,3 +1045,33 @@
 			height: 250px;
 			width: 250px;
 		}
+
+		.proj-desc {
+			font-size: 26px;
+		}
+
+		p {
+			font-weight: 500;
+		}
+
+		.pic-ref {
+			border-bottom: none;
+		}
+
+		.img {
+			height: inherit;
+			width: inherit;
+			margin-top: -20px;
+		}
+
+		.img-cont {
+			margin: 0 10px 0 10px;
+			height: 210px !important;
+			width: 380px !important;
+		}
+
+		.aref {
+			height: inherit;
+			width: inherit;
+			font-size: 24px;
+		}
