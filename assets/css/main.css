@@ -311,7 +311,7 @@
 		-webkit-animation: overlay 1.5s 1.5s forwards;
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
-		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/overlay-pattern.png"), url("images/overlay.svg");
+		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/overlay.svg");
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
