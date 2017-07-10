@@ -622,6 +622,27 @@
 					animation-delay: 3.75s;
 				}
 
+				#header nav li:nth-child(11) {
+					-moz-animation-delay: 4s;
+					-webkit-animation-delay: 4s;
+					-ms-animation-delay: 4s;
+					animation-delay: 4s;
+				}
+
+				#header nav li:nth-child(12) {
+					-moz-animation-delay: 4.25s;
+					-webkit-animation-delay: 4.25s;
+					-ms-animation-delay: 4.25s;
+					animation-delay: 4.25s;
+				}
+
+				#header nav li:nth-child(13) {
+					-moz-animation-delay: 4.5s;
+					-webkit-animation-delay: 4.5s;
+					-ms-animation-delay: 4.5s;
+					animation-delay: 4.5s;
+				}
+
 			#header nav a {
 				-webkit-tap-highlight-color: transparent;
 				-webkit-touch-callout: none;
@@ -671,7 +692,11 @@
 
 				#header nav ul {
 					display: inline-flex;
-					margin-top: -1em;
+					margin-top: 1em;
+				}
+
+				#header nav ul li i {
+					font-size: 68px;
 				}
 
 /* Footer */
