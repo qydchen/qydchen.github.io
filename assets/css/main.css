@@ -1114,3 +1114,11 @@
 			opacity: 1 !important;
 			line-height: normal;
 		}
+
+		.project-nav {
+			margin: -2.5em 0 0 0;
+		}
+
+		.project-header {
+			top: -4em !important;
+		}
